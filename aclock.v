@@ -1,8 +1,3 @@
-// module: aclock
-// Description: A digital alarm clock module that displays Hours and Minutes.
-//              It features time setting, alarm setting, and an alarm trigger.
-//              Seconds are tracked internally for timing accuracy but not displayed or used for alarm.
-
 module aclock (
     input reset,        // Global active-high reset signal to initialize the system
     input clk,          // Master clock input (runs fast, source for internal timing)
