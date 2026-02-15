@@ -115,7 +115,7 @@ module aclock (
 
     //*************** Clock Divider Logic ***************//
     // Converts input 'clk' to a 1Hz 'clk_1s' signal
-    // NOTE: This divider counts to 10 (0-9). 
+    // This divider counts to 10 (0-9). 
     // This assumes input 'clk' is 10Hz. Validates on rising edge of clk or reset.
     always @(posedge clk or posedge reset) begin
         if (reset) begin
